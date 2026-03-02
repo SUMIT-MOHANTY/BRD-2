@@ -2,26 +2,44 @@
 __pycache__/
 *.py[cod]
 *$py.class
-.venv/
-venv/
-*.egg-info/
-dist/
-build/
+*.so
+.Python
+*.pyc
+*.pyo
+*.pyd
 
-# Node
-node_modules/
-dist/
-build/
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
 
 # Environment
 .env
+.env.local
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
 *.log
 
-# IDE
-.vscode/
-.idea/
-*.swp
-
-# OS
-.DS_Store
-Thumbs.db
